@@ -2,10 +2,10 @@
 
 @font-face{
   font-family: 'Abolition Regular';
-  src: url('Blackrock/fonts/abolition-regular-webfont.eot');
-  src: url('Blackrock/fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/abolition-regular-webfont.woff') format('woff'),
-       url('/fonts/abolition-regular-webfont.ttf') format('truetype');
+  src: url('../Blackrock/fonts/abolition-regular-webfont.eot');
+  src: url('../Blackrock/fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/abolition-regular-webfont.woff') format('woff'),
+       url('../fonts/abolition-regular-webfont.ttf') format('truetype');
 }
 
 /* Base Styles -------------------- */
@@ -88,7 +88,7 @@ a:active {
   
   background: linear-gradient(#663300, transparent 90%),
               linear-gradient(0deg, #fff, transparent),
-              #ffa949 url('../img/Blackrock_Castle.JPG') no-repeat center;
+              #ffa949 url('../img/Blackrock_Castle.jpg') no-repeat center;
   
   /*ffa949 */
   
